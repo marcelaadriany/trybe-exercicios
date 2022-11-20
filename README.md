@@ -10,7 +10,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 01: Unix & Bash
 
-- [ :white_check_mark: ] 1.1: _Unix & Bash- Parte 1_
+- [ ] 1.1: _Unix & Bash- Parte 1_
 - [ ] 1.2: _Unix & Bash- Parte 2_
 
 ##### Seção 02: Git & GitHub
