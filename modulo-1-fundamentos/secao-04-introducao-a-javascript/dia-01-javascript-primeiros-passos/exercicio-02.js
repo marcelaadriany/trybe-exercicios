@@ -26,7 +26,7 @@ patientId = '50'; // troquei a variável do tipo number pra uma do tipo string
 console.log(typeof patientId); // o javascript já reconhece que o tipo primitivo é outro, essa é a famosa tipagem dinâmica
 
 /*
-    #para fixar!!
+  :rocket:
 
 - Crie uma constante chamada base e atribua a ela o valor 5.
 - Crie uma constante uma chamada heigth e atribua a ela o valor 8.
