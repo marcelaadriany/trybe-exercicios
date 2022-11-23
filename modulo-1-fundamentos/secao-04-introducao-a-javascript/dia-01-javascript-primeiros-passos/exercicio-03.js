@@ -11,13 +11,13 @@ Condições If e Else
 - Altere o valor da nota para verificar se as condições que você implementou funcionam.
 */
 
-const grade = 80
+const grade = 90
 if (grade >= 80){
     console.log('Parabéns, você foi aprovada(o)')
 }
-else if (grade < 80 && grande >= 60){
+else if (grade < 80 && grade >= 60){
     console.log('Você está na nossa lista de espera')
 }
-else{
+else if (grade < 60){
     console.log('Você foi reprovada(o)')
 };
