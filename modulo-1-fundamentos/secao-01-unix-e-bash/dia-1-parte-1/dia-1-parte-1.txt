@@ -19,3 +19,4 @@ cp trybe.txt trybe_backup.txt
 \renomeando arquivo
 rm trybe.txt novo-nome.txt
 
+# exercicio 5
