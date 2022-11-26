@@ -1,4 +1,4 @@
-// Arrays
+// ARRAYS
 
 // Use .length para acessar a quantidade de elementos dentro do array
 let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
@@ -46,3 +46,22 @@ console.log(indexOfPortfolio);
 let menuContato = menu.push ('Contato'); // adiciona 'Contato' no fim do array
 console.log(menu);
 
+
+// FOR
+
+// Utilize o for para imprimir os elementos da lista groceryList com o console.log():
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+for (let index =0; index < groceryList.length; index += 1){
+    console.log(groceryList[index])
+};
+
+
+// FOR/OF
+
+// Utilize o for/of para imprimir os elementos da lista names com o console.log():
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for (let name of names){
+    console.log(name)
+};
