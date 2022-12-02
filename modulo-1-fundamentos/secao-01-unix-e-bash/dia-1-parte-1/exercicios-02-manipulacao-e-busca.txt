@@ -1,0 +1,67 @@
+## Manipulação e busca
+
+# exercicio 1
+\criando um novo diretório
+mkdir unix_tests_search
+\acessando novo diretório
+cd unix_tests_search
+\baixando arquivo countries.txt
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+# exercicio 2
+\mostrando todo o conteúdo de countries.txt na tela
+cat countries.txt
+
+# exercicio 3
+\mostrando o conteúdo de countries.txt página por página até encontrar Zâmbia
+less countries.txt /utilizar teclas n para proximo(next) e p para anterior(previous) para navegar
+
+
+# exercicio 4
+\mostrando novamente o conteúdo de countries.txt página por página, mas agora utilizando um comando para buscar por Zambia
+less countries.txt /agora que estou dentro do arquivo, utilizar '/Zambia' para buscar
+/pressionar 'Enter' para sair da busca
+
+# exercicio 5
+\buscando por Brazil em countries.txt
+grep Brazil countries.txt /deu not found porque é sensitive case
+
+# exercicio 6
+\buscando por brazil, agora utilizando lower case
+grep -i brazil countries.txt /o '-i' indica para não diferencia entre letras maiúsculas e minúsculas
+
+# exercicio 7
+\criando um novo arquivo phrases.txt e adicionando frases à minha escolha
+/não fiz isso pelo terminal
+
+# exercicio 8
+\buscando pelas frases que não contenham a palavra fox
+grep -v fox phrases.txt /'grep' é o comando pra 'pegar' e '-v' seleciona o que está fora do que é pedido
+
+# exercicio 9
+\contando o número de palavras no arquivo phrases.txt
+wc -w phrases.txt /'wc' é o comando para contar (linhas, arquivos, palavras etc) e '-w' conta as palavras
+
+# exercicio 10
+\contando o número de linhas no arquivo phrases.txt
+wc -l phrases.txt /'-l' conta o número de linhas
+
+# exercicio 11
+\criando arquivos empty.tbt e empty.pdf
+touch empty.tbt empty.pdf
+
+# exercicio 12
+\listando todos os arquivos do diretório unix_tests_search
+ls -l
+
+# exercicio 13
+\listando todos os arquivos que terminem com txt
+ls -l *.txt
+
+# exercicio 14
+\listando todos os arquivos que terminem com tbt ou pdf
+ls -l *.t?t
+
+# exercicio 15
+\acessando o manual do comando ls
+man ls
