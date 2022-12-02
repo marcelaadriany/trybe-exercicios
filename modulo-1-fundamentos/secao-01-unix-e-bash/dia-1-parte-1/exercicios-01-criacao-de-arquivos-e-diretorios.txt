@@ -57,5 +57,14 @@ rm -rf backup
 \limpando o terminal
 clear
 
+# exercicio 14
+\mostrando na tela as 5 primeiras skills do arquivo skills.txt
+head -n 5 skills.txt
 
+# exercicio 15
+\mostrando na tela as 4 últimas skills do arquivo skills.txt
+tail -n 4 skills.txt
 
+# exercicio 16
+\apagando todos os arquivos que terminem em .txt
+rm *.txt
