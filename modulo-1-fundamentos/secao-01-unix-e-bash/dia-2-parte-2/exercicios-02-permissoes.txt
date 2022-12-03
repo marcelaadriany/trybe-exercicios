@@ -1,0 +1,30 @@
+# exercicio 1
+\criando novo diretório e navegando até ele
+mkdir unix_testes_permissions
+cd unix_testes_permissions
+
+# exercicio 2
+\verificando as permissões
+ls -l
+
+# exercicio 3
+\criando arquivo
+touch arquivo_teste.txt
+
+# exercicio 4
+\mudando a permissão do arquivo para que todas as pessoas usuárias possem ter acesso à leitura e escrita
+chmod a+rw arquivo_teste.txt
+\checando com ls -l
+ls -l /-rw-rw-rw- 1 marcela marcela 0 dez  3 18:07 arquivo_teste.txt
+
+# exercicio 5
+\tirando a permissão de escrita do arquivo para todas as pessoas
+chmod a-w arquivo_teste.txt
+\checando com ls -l
+ls -l /-r--r--r-- 1 marcela marcela 0 dez  3 18:07 arquivo_teste.txt
+
+# exercicio 6
+\voltando à permissão do arquivo listada inicialmente
+chmod 644 arquivo_teste.txt
+\checando com ls -l
+ls -l /-rw-r--r-- 1 marcela marcela 0 dez  3 18:07 arquivo_teste.txt
