@@ -1,0 +1,44 @@
+# exercicio 1
+\listando todos os processos
+bg
+
+# exercicio 2
+\usando o comando sleep 30 &
+sleep 30 & /processo em background
+
+# exercicio 3
+\usando a listagem de processos para encontrar o PID do processos sleep 30 e terminando sua execução
+bg /PID 30194
+kill 30194
+
+# exercicio 4
+\dando início a um processo e depois colocando-o em background
+sleep 30 /não está em background
+ctrl + z /interrompe o processos
+bg /coloca o processo interrompido em background
+
+# exercicio 5
+\criando um processo em background
+sleep 300 &
+
+# exercicio 6
+\criando mais dois processos (em foreground e suspendê-los)
+sleep 200
+ctrl + z
+sleep 100
+ctrl + z
+
+# exercicio 7
+\verificando os processos em execução usando o comando jobs e suspendendo sua execução
+jobs /"running" à esquerda do processo sleep 300
+fg %1 /trazendo o processo sleep 300 para foreground
+"ctrl+z" /para suspender o processos
+
+# exercicio 8
+\retomando a execução de um processo em background
+bg %3
+
+
+# exercicio 9
+\terminando a execução de todos os processos sleep
+killall sleep
