@@ -73,6 +73,8 @@
 
 ## Exercícios bônus - o despertador do terminal
 
+E para terminar com a energia óh, lá no alto, que tal aprender agora alguns comandos divertidos do Unix? ☝ 🎊
+
 1. Se você utiliza o **Linux**, abra o terminal e execute o comando `sudo apt-get install cmatrix`, ou para pessoas usuárias de **macOS**, utilize no terminal `brew install cmatrix`. Depois, execute o comando `cmatrix`. Quando estiver se sentindo como o *Neo*, aperte `ctrl+c` para voltar ao terminal;
 
 2. No sistema **Linux**, execute o comando `sudo apt-get install fortune`, ou no **macOS** `brew install fortune` e, após a instalação, crie um arquivo de texto chamado `fortune.txt` que contenha a sua sorte do dia. Utilize apenas uma linha de comando. *Dica: use o comando `fortune`, e o operador `>`* ;
