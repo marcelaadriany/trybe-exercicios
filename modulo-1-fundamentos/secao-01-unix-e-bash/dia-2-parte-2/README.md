@@ -39,7 +39,7 @@
 
 5. Tire a permissão de escrita do arquivo `arquivo_teste.txt` para todas as pessoas usuárias, verifique se está correto com o comando `ls -l`;
  
- *Resultado esperado*: `-r--r--r-- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt`
+    *Resultado esperado*: `-r--r--r-- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt`
 
 6. Volte à permissão do arquivo `arquivo_teste.txt` para a listada inicialmente utilizando o comando `chmod 644 arquivo_teste.txt`.
 
