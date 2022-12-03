@@ -1,6 +1,6 @@
 # Exercícios
 
-## Criando um repositório
+## Portfólio de exercícios
 
 Chegou a hora de praticar os seus conhecimentos sobre o Git!
 Para isso, você vai criar um novo diretório no seu computador e realizar algumas modificações 🤩
@@ -14,6 +14,7 @@ Adicione o arquivo novo em staging e realize um commit. Por exemplo: git add . e
 Crie uma nova branch com o comando git checkout -b. Por exemplo: git checkout -b adiciona-readme;
 Faça uma alteração no README.md e depois realize um novo commit. Por exemplo: git add . e git commit -m "Alterando o README"
 Retorne para a branch main, em seguida realize o merge das alterações com o comando git merge nome-da-branch. Por exemplo: git merge adiciona-readme.
+
 
 Agora que você já criou a pasta e mergeou as alterações, vamos avançar e criar novas branches!
 
