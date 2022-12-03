@@ -1,0 +1,30 @@
+# exercicio 1
+\criando a pasta unix_tests_skills
+mkdir unix_tests_skills
+\navegando até ela
+cd unix_tests_skills
+
+# exercicio 2
+\criando um arquivo texto pelo terminal e adicionando valores diferentes em cada linha
+cat > skills2.txt
+Internet
+Unix
+Bash
+
+# exercicio 3
+\adicione mais 5 itens à sua lista de skills
+cat >> skills2.txt
+HTML
+CSS
+JavaScript
+Node.Js
+React
+\imprimindo a lista ordenada no terminal
+sort < skills2.txt
+
+# exercicio 4
+\contando quantas linhas tem o arquivo skills2.txt
+wc -l skills2.txt
+
+
+
