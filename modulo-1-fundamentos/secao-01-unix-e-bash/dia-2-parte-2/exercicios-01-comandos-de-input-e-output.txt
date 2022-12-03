@@ -1,0 +1,60 @@
+# exercicio 1
+\criando a pasta unix_tests_skills
+mkdir unix_tests_skills
+\navegando até ela
+cd unix_tests_skills
+
+# exercicio 2
+\criando um arquivo texto pelo terminal e adicionando valores diferentes em cada linha
+cat > skills2.txt
+Internet
+Unix
+Bash
+
+# exercicio 3
+\adicione mais 5 itens à sua lista de skills
+cat >> skills2.txt
+HTML
+CSS
+JavaScript
+Node.Js
+React
+\imprimindo a lista ordenada no terminal
+sort < skills2.txt
+
+# exercicio 4
+\contando quantas linhas tem o arquivo skills2.txt
+wc -l skills2.txt
+
+# exercicio 5
+\criando outro arquivo a partir das 3 primeiras linhas em ordem alfabética de skills2.txt
+sort < skills2.txt | head -n 3 > top_skills.txt
+
+# exercicio 6
+\criando novo arquivo e adicionando frases
+cat > phrases.txt
+Água mole pedra dura, tanto bate até que fura
+Quem com ferro fere com ferro será ferido
+O rato roeu a roupa do rei de Roma
+
+# exercicio 7
+\contando quantas linhas possuem a palavra br
+grep br phrases.txt | wc -l /0
+
+# exercicio 8
+\contando quantas linhas não possuem a palavra br
+grep -v br phrases.txt | wc -l /3
+
+# exercicio 9
+\adicionando dois nomes de países ao final do arquivo phrases.txt
+cat >> phrases.txt
+Brazil
+Argentina
+
+# exercicio 10
+\criando um novo arquivo a partir do conteúdo de outros dois
+cat phrases.txt skills2_txt > bunch_of_things.txt
+
+# exercicio 11
+\ordenando o arquivo bunch_of_things.txt
+sort bunch_of_things.txt
