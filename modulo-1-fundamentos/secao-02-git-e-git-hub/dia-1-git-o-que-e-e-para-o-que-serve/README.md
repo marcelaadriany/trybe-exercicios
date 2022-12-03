@@ -1,6 +1,6 @@
 # Exercícios
 
-## Portfólio de exercícios
+## Criando um repositório
 
 Chegou a hora de praticar os seus conhecimentos sobre o Git!
 Para isso, você vai criar um novo diretório no seu computador e realizar algumas modificações 🤩
