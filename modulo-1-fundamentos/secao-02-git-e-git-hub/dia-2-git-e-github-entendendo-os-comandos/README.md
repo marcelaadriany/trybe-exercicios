@@ -1,6 +1,8 @@
+# Exercícios
 
+## Portifólio de exercícios
 
-Na última aula, você iniciou um repositório de exercícios e, dentro dele, uma pasta com uma lista de habilidades a serem aprendidas no curso da Trybe. O objetivo agora é que você realize algumas modificações para treinar suas habilidades de Git e para que você entenda completamente qual o fluxo de desenvolvimento utilizando um DVCS. 👾
+Na última aula, você iniciou um repositório de exercícios e, dentro dele, uma pasta com uma lista de habilidades a serem aprendidas no curso da Trybe. O objetivo agora é que você realize algumas modificações para treinar suas habilidades de Git e para que você entenda completamente qual o fluxo de desenvolvimento utilizando um DVCS. space_invader
 
 Agora que você já é capaz de gerenciar localmente seus códigos e também enviá-los para o GitHub, é hora de organizar o seu portfólio de exercícios!
 
@@ -26,4 +28,4 @@ Confira as alterações no GitHub;
 
 Realize o merge no GitHub;
 
-Dê um pull das alterações mergeadas;
+Dê um pull das alterações mergeadas
