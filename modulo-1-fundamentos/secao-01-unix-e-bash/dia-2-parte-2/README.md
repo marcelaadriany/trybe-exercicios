@@ -23,3 +23,24 @@
 10. Crie um novo arquivo chamado `bunch_of_things.txt` com os conteúdos dos arquivos `phrases2.txt` e `countries.txt`
 
 11. Ordene o arquivo `bunch_of_things.txt`.
+
+
+## Permissões
+
+1. Crie a pasta `unix_tests_permissions` e navegue até ela.
+
+2. Rode o comando `ls -l` e veja quais as permissões dos arquivos.
+
+3. Crie o arquivo `arquivo_teste.txt`.
+
+4. Mude a permissão do arquivo `arquivo_teste.txt` para que todas as pessoas usuárias possam ter acesso à leitura e escrita, e verifique se está correto com o comando `ls -l`;
+
+    *Resultado esperado*: `-rw-rw-rw- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt`
+
+5. Tire a permissão de escrita do arquivo `arquivo_teste.txt` para todas as pessoas usuárias, verifique se está correto com o comando `ls -l`;
+ 
+ *Resultado esperado*: `-r--r--r-- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt`
+
+6. Volte à permissão do arquivo `arquivo_teste.txt` para a listada inicialmente utilizando o comando `chmod 644 arquivo_teste.txt`.
+
+    *Resultado esperado*: `-rw-r--r-- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt`
