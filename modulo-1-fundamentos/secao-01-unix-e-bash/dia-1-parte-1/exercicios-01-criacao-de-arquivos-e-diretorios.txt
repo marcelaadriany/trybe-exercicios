@@ -1,0 +1,70 @@
+## Criação de arquivos e diretórios
+
+# exercício 1
+
+\criando diretório unix_tests
+mkdir unix_tests
+\navegando até o diretório
+cd unix_tests
+
+# exercício 2
+\criando arquivo .txt
+touch trybe.txt
+
+# exercicio 3
+\fazendo uma cópia do arquivo
+cp trybe.txt trybe_backup.txt
+
+# exercicio 4
+\renomeando arquivo
+rm trybe.txt novo-nome.txt
+
+# exercicio 5
+\criando novo diretório
+mkdir backup
+
+# exercicio 6
+\movendo trybe_backup.txt para o diretório backup
+mv trybe_backup backup
+
+# exercicio 7
+\criando outro diretório dentro de unix_tests
+mkdir backup2
+
+# exercicio 8
+\movendo o arquivo trybe_backup.txt para o diretório backup2
+mv backup/trybe_backup.txt backup2
+
+# exericio 9
+\apagando a pasta backup
+rmdir backup
+
+# exercicio 10
+\renomeando a pasta backup2 para backup
+mv backup2 backup
+
+# exercicio 11
+\vendo o path completo do diretório atual
+pwd
+\listando todos os arquivos dentro dele
+ls -l
+
+# exericio 12
+\apagando o diretório backup
+rm -rf backup
+
+# exericio 13
+\limpando o terminal
+clear
+
+# exercicio 14
+\mostrando na tela as 5 primeiras skills do arquivo skills.txt
+head -n 5 skills.txt
+
+# exercicio 15
+\mostrando na tela as 4 últimas skills do arquivo skills.txt
+tail -n 4 skills.txt
+
+# exercicio 16
+\apagando todos os arquivos que terminem em .txt
+rm *.txt
