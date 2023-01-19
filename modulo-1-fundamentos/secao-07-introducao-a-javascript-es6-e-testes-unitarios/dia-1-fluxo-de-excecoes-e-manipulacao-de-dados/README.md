@@ -1,8 +1,6 @@
 ## Exercícios
 
-# 🚀 Parte I - Criando fluxo de exceção
-
-1 🚀 - Crie erros personalizados.
+# Parte I - Criando fluxo de exceção
 
 - Tente executar a aplicação com um dos valores em branco. Notou que o retorno não é muito descritivo?
 
@@ -17,3 +15,5 @@
 - Adicione o texto dos erros no parágrafo com id result, para que a pessoa usuária saiba o que aconteceu. Lembre-se de usar erros descritivos!
 
 - Utilize o finally para apagar os valores dos inputs ao final do bloco try/catch.
+
+## Parte II - Pedido de clientes
