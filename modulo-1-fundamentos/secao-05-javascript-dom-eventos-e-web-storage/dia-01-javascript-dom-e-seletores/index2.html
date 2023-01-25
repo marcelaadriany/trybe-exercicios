@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragraphs">Dê uma cor para este parágrafo!</p> <!--adicionei uma classe para este parágrafo-->
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragraphs">Segundo parágrafo!</p> <!--adicionei a mesma classe para este parágrafo-->
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      const paragraphs = document.getElementsByClassName('paragraphs'); //recuperei meus elementos de parágrafos pela classe
+      paragraphs[0].style.color = 'orange'; //alterei o estilo do primeiro elemento da classe parágrafos (ou seja, o parágrafo 1)
+      const subtitle = document.getElementsByTagName('h4'); //recuperei o subtítulo pela sua tag (h4);
+      console.log(subtitle);
+      subtitle[0].style.color = 'purple';
+    </script>
+  </body>
+</html>
