@@ -1,4 +1,4 @@
-# Parte I
+# EXERCÍCIOS Parte I
 ## Nova pessoa contratada
 Você ficou responsável por organizar o sistema de contratação de uma empresa e deve criar uma estrutura de dados que possua o formato { nomeCompleto, email } para representar a nova pessoa contratada. Além disso, você deve gerar os emails de cada pessoa que é contratada na empresa. Para isso:
 
@@ -18,17 +18,3 @@ Crie uma HOF que receberá três parâmetros:
 - A ausência de uma resposta não altera a pontuação (quando for “N.A”);
 - Uma resposta incorreta reduz a pontuação final em 0.5 ponto.
 - Ao final, a HOF deve retornar o total de pontos obtidos através das respostas fornecidas pela pessoa estudante.
-
-# Parte II - Organizando uma biblioteca
-## 🚀 Organizando uma biblioteca
-Estes exercícios praticam os conceitos de Higher Order Functions associados a outros temas de fundamentos já vistos, como arrow functions, template literals e objetos. Essa mistura de conceitos é muito importante para o seu aprendizado, então use tudo o que sabe para resolver os exercícios!
-
-- Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
-- Retorne o nome do livro com menor número de caracteres (menor nome).
-- Encontre o primeiro livro cujo nome possua 26 caracteres.
-- Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário.
-- Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
-- Faça uma função que retorne true, caso nenhuma pessoa autora tenha nascido no mesmo ano, e false, caso contrário.
-
-
-
