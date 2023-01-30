@@ -1,4 +1,4 @@
-//nova pessoa contrada
+//nova pessoa contratada
 
 const newEmployees = (generatesNewEmployees) => {
     const employees = {
@@ -15,3 +15,22 @@ const newEmployees = (generatesNewEmployees) => {
 }
 
 console.log(newEmployees(generatesNewEmployees));
+
+
+//sorteador de loteria
+
+const checksNumber = (myNumber, number) => myNumber === number; //checa se o meu número e o sorteado são iguais
+
+const generatesResult = (myNumber, checksNumber) => {
+    const number = Math.floor((Math.random() * 5) + 1); //gera um número aleatório entre 1 e 5
+    if (myNumber === number) {
+        return `Parabéns, você ganhou`
+    }
+    if (myNumber !== number) {
+        return `Tente novamente`
+    }
+}
+
+console.log(generatesResult(2, checksNumber));
+
+//corretor automático de exame
