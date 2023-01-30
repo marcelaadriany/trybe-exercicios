@@ -1,3 +1,5 @@
+//praticando o conteúdo
+
 //forEach
 const emailListInData = [
     'roberta@email.com',
