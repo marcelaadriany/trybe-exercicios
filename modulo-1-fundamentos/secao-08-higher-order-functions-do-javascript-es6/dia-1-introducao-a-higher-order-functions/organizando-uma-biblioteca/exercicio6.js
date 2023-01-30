@@ -61,4 +61,5 @@ const books = [
     },
   ];
   
-  // Adicione o código do exercício aqui:
+// Adicione o código do exercício aqui:
+// Faça uma função que retorne true, caso nenhuma pessoa autora tenha nascido no mesmo ano, e false, caso contrário.
