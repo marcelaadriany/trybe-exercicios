@@ -1,4 +1,3 @@
-module.exports = {
 const books = [
     {
       id: 1,
@@ -60,5 +59,6 @@ const books = [
       },
       releaseYear: 1928,
     },
-  ]
-};
+  ];
+
+module.exports = books;
