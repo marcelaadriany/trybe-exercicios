@@ -13,4 +13,7 @@ const expectedResult = [
   
   const formatedAuthorNamesBirth = () => {
     // escreva seu código aqui
+    return books.map((book) => (`${book.author.name} - ${book.author.birthYear}`))
   }
+
+console.log(formatedAuthorNamesBirth());
