@@ -1,4 +1,4 @@
-//praticando o conteúdo
+//para fixar
 
 //forEach
 const emailListInData = [
