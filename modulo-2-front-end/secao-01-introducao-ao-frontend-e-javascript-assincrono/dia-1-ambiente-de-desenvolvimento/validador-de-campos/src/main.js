@@ -1,1 +1,2 @@
-console.log('Hello World');
+import validator from 'validator';
+import './style.css';
