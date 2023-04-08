@@ -6,7 +6,8 @@ const content = document.querySelector('#container');
 const BASE_URL = 'https://api.exchangerate.host/latest?base=';
 
 searchButton.addEventListener('click', () => {
-  const currency = input;
+  localStorage.clear();
+  const currency = input.value;
   return fetch(`${BASE_URL}${currency}`)
     .then((Response) => Response.json())
     .then((data) => {
